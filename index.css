@@ -414,7 +414,7 @@ h4 {
     }
 
     .mobile-nav a{
-        display: block;
+        display: block; 
         width: 100%;
         min-width: 200px;
         margin: 0 auto 25px;
@@ -426,13 +426,13 @@ h4 {
     }
 
     /* mobile-nav dropdown */
-    .mobile-nav .mobile-nav-dropdown{
-        display: none;
+    .first .mobile-nav .mobile-nav-dropdown{
+        display: none !important;
     }
 
     /* show div on hover over another element */
     .navbar-Mission:hover + .mobile-nav-dropdown{
-        display: block;
+        display: block !important;
     }
 
     .mobile-nav .mobile-nav-dropdown a{

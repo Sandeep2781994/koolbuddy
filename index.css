@@ -431,9 +431,9 @@ h4 {
     }
 
     /* show div on hover over another element */
-    /* .navbar-Mission:hover + .mobile-nav-dropdown{
+    .navbar-Mission:hover + .mobile-nav-dropdown{
         display: block;
-    } */
+    }
 
     .mobile-nav .mobile-nav-dropdown a{
         width: 50%;

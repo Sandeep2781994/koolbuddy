@@ -396,9 +396,7 @@ h4 {
     }
 
     /* mobile nav */
-
    
-
     .mobile-nav{
         display: block;
         position: fixed;
@@ -426,15 +424,21 @@ h4 {
     }
 
     /* mobile-nav dropdown */
-    .first .mobile-nav .mobile-nav-dropdown{
-        display: none !important;
+    .mobile-nav-dropdown{
+        display: none;
     }
 
-    /* show div on hover over another element */
-    .navbar-Mission:hover + .mobile-nav-dropdown{
-        display: block !important;
+    /* mobile-nav mission button */
+   .mobile-nav .mission-btn{
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0,0,0,0.2);
+
     }
 
+   
     .mobile-nav .mobile-nav-dropdown a{
         width: 50%;
         margin: 0 auto 15px;
